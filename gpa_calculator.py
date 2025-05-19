@@ -41,5 +41,5 @@ for i in range(6):
     Weighted_Grades.append(weighted_point)
 
 
-GPA = sum(Weighted_Grades)/sum(Grade_Points)
+GPA = sum(Weighted_Grades)/sum(Credit_Units)
 print(f"Your GPA is: {round(GPA, 2)}")
